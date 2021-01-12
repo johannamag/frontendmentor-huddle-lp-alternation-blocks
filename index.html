@@ -15,7 +15,12 @@
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
     </title>
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -111,13 +116,54 @@
         </p>
       </div>
     </section>
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua +1-543-123-4567
-    example@huddle.com About Us What We Do FAQ Career Blog Contact Us &copy;
-    Copyright 2018 Huddle. All rights reserved.
-
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <h1 class="footer-logo">Huddle</h1>
+        <div class="footer-grid">
+          <div class="item">
+            <div class="contact">
+              <img src="./media/icon-location.svg" alt="icon" class="icon" />
+              <p class="contact-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+            <div class="contact">
+              <img src="./media/icon-phone.svg" alt="icon" class="icon" />
+              <p class="contact-text">+1-543-123-4567</p>
+            </div>
+            <div class="contact">
+              <img src="./media/icon-email.svg" alt="icon" class="icon" />
+              <p class="contact-text">example@huddle.com</p>
+            </div>
+          </div>
+          <div class="item-links">
+            <a href="#" class="footer-links">About Us</a>
+            <a href="#" class="footer-links">What We Do</a>
+            <a href="#" class="footer-links">FAQ</a>
+          </div>
+          <div class="item-links">
+            <a href="#" class="footer-links">Career</a>
+            <a href="#" class="footer-links">Blog</a>
+            <a href="#" class="footer-links">Contact Us</a>
+          </div>
+          <div class="item-socials">
+            <a href="#" class="social-link">
+              <i class="fab fa-facebook-f social-icon"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter social-icon"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram social-icon"></i>
+            </a>
+          </div>
+        </div>
+        <p class="contact-text right">
+          &copy; Copyright 2018 Huddle. All rights reserved.
+        </p>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
