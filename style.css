@@ -163,3 +163,14 @@ body {
 .gray {
   color: var(--gray);
 }
+
+@media screen and (max-width: 768px) {
+  .card {
+    grid-template-columns: 1fr;
+    padding: 30px;
+    text-align: center;
+  }
+  .card:nth-child(2) > .card-img {
+    grid-row: 1 / 2;
+  }
+}
