@@ -6,3 +6,16 @@
   --dark-cyan: hsl(192, 100%, 9%);
   --blue: hsl(208, 11%, 55%);
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--blue);
+  font-size: 18px;
+}
