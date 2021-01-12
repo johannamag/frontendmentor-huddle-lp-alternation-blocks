@@ -195,3 +195,20 @@ body {
 .action-card > .subheading {
   margin-bottom: 35px;
 }
+
+.attribution {
+  font-size: 0.9rem;
+  margin-top: 20px;
+}
+
+.attribution > a {
+  text-decoration: none;
+  color: var(--cyan);
+  transition: all 0.3s ease-in-out;
+}
+
+.attribution > a:hover {
+  color: var(--pink);
+}
+
+/* Footer */
