@@ -18,6 +18,7 @@ body {
   font-weight: 400;
   color: var(--blue);
   font-size: 18px;
+  background-color: var(--cyan);
 }
 
 .container {
@@ -56,4 +57,48 @@ body {
 .nav-btn:hover {
   color: #fff;
   background-color: var(--dark-cyan);
+}
+
+/* Hero Section */
+
+.hero {
+  background-image: url("./media/bg-hero-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 30px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.heading {
+  color: var(--dark-cyan);
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+.desc {
+  color: var(--dark-cyan);
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.pink {
+  color: #fff;
+  background-color: var(--pink);
+  transition: all 0.3s ease-in-out;
+}
+
+.pink:hover {
+  opacity: 0.7;
 }
