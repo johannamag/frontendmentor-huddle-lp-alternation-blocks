@@ -283,3 +283,24 @@ body {
 .right {
   text-align: right;
 }
+
+@media screen and (max-width: 627px) {
+  .footer-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+  .item-links:nth-child(2) {
+    grid-row: 3 / 4;
+    margin-bottom: 20px;
+  }
+  .item-socials {
+    grid-row: 4 / 5;
+    text-align: center;
+  }
+  .right {
+    text-align: center;
+  }
+}
